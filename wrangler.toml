@@ -1,0 +1,12 @@
+name = "kobako"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# カスタムドメイン設定
+routes = [
+  { pattern = "kobako.ogatakatsuya.com/*", zone_name = "ogatakatsuya.com" }
+]
+
+[[kv_namespaces]]
+binding = "KV"
+id = "91173f61ce6b4396aa7c0171970af0f7" 

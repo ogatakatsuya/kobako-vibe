@@ -1,0 +1,23 @@
+{
+  "name": "kobako",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers project with Hono and KV",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run",
+    "start": "wrangler dev"
+  },
+  "keywords": ["cloudflare", "workers", "hono", "kv"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^3.12.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "typescript": "^5.3.0",
+    "wrangler": "^3.19.0"
+  }
+} 
