@@ -4,7 +4,7 @@ compatibility_date = "2024-01-01"
 
 # カスタムドメイン設定
 routes = [
-  { pattern = "kobako.ogatakatsuya.com/*", zone_name = "ogatakatsuya.com" }
+  { pattern = "kobako.ogatakatsuya.com", custom_domain = true }
 ]
 
 [[kv_namespaces]]
